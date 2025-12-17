@@ -1,24 +1,69 @@
-/* Los estilos se aplican a todo el documento */
+@import url('https://fonts.googleapis.com/css2?family=Fascinate+Inline&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
 body {
-    background-image: linear-gradient(135deg, rgba(0, 0, 0, 0.5), rgba(5, 158, 218, 0.9)), 
+    background-image: linear-gradient(135deg, #2D3E40CC, #387373CC), 
                       url('../assets/images/background.jpg');
     background-attachment: fixed;
     background-size: cover;
-    color: #fff;
+    color: #E4F2E7;
     font-family: "Open Sans", sans-serif;
     font-weight: 300;
 }
 
-.about {
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9));
+header {
     max-width: 800px;
     margin: auto;
-    padding: 20px;
+    margin-bottom: 24px;
+    font-weight: 500;
+}
+
+header h1 {
+    color: #FFF;
+    line-height: 12px;
+    margin-top: 48px;
+    text-align: center;
+}
+
+.box {
+    background: linear-gradient(135deg, #2D3E40CC, #387373CC);
+    max-width: 800px;
+    margin: auto;
+    margin-top: 20px;
+    padding: 0px 20px 10px 20px;
     border-style: solid;
-    border-color: #fff;
+    border-width: 1px;
+    border-color: #E4F2E7;
     border-radius: 20px;
+}
+
+.img-center {
+    text-align: center;
+}
+
+.profile-picture {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+}
+
+.social-network {
+    list-style: none;
+    min-height: 60px;
+}
+
+.social-network li {
+    float: left;
+    margin: 0 24px;
 }
 
 .social-icon {
     width: 48px;
+    height: 48px;
+}
+
+footer {
+    max-width: 800px;
+    margin: auto;
+    margin-top: 24px;
 }
